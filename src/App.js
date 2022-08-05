@@ -1,14 +1,20 @@
 import React from 'react'
 
 const App =()=>{
+    var fruitName = ["Mango 🥭", "Grapes 🍇"]
     return(
         <>
             <h1>Welcome to react Js Series</h1>
+            {
+                fruitName.forEach(element => {
+
+                })
+            }
         </>
     )
 }
 
-const CheckFun =()=>{
+export const CheckFun =()=>{
     return(
         <>
             <ul>

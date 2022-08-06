@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    /* font-size: 20px; */
+    color: #ffffff;
+    background-color: #795fec;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Orbitron', sans-serif;
+
+    /* color: #0e0b16; */
+}

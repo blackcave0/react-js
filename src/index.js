@@ -1,17 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
-import Task02 from './challenges/task_02';
-// import reportWebVitals from './reportWebVitals';
-
-
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 ReactDOM.render(
     <>
-      <Task02 />
+        <App />
     </>,
     document.getElementById('root')
-  ); 
-
-
+)

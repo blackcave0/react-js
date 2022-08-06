@@ -1,28 +1,16 @@
 import React from 'react'
-
+import PropsApp from './props/PropsApp';
+// import '../src/css_style/index.css'
+// import StyleApp from './css_style/styleApp';
+// import ChallengeApp from './challenges/challengApp';
+// import ComponentApp from './components/componentApp';
 const App =()=>{
-    var fruitName = ["Mango 🥭", "Grapes 🍇"]
     return(
         <>
-            <h1>Welcome to react Js Series</h1>
-            {
-                fruitName.forEach(element => {
-
-                })
-            }
-        </>
-    )
-}
-
-export const CheckFun =()=>{
-    return(
-        <>
-            <ul>
-                <li>Check 1</li>
-                <li>Check 2</li>
-                <li>Check 3</li>
-                <li>Check 4</li>
-            </ul>
+            {/* <StyleApp/>   */}
+            {/* <ChallengeApp/> */}
+            {/* <ComponentApp/> */}
+            <PropsApp/>
         </>
     )
 }

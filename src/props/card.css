@@ -67,12 +67,16 @@ body{
     font-weight: 900;
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    /* font-weight: 00; */
+    text-transform: uppercase;
 }
-
+a{text-decoration: none;}
 button {
     margin-top: 10px;
-    border: solid 1px #272626ea;
+    /* margin: auto; */
+    /* border: solid 1px #272626ea ; */
+    display: flex;
+    outline: red;
     padding: 10px 20px;
     background-color: transparent;
     border-radius: 5px;
@@ -83,7 +87,9 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
+
 button:hover{
+    border-radius: 50px;
     background-color: #cc4b61ea;
     color: #fff;
     border: none;

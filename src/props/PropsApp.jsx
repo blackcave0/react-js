@@ -4,42 +4,69 @@ import C22propsNetflix from './C22_propsNetflix'
 import './card.css'
 import SeriesData from './C23_arrayNetflix'
 
+/* var value =(val)=>{
+  return(
+    <C22propsNetflix
+    sname ={val.sname}
+    imgsrc={val.imgsrc}
+    title={val.title}
+    link={val.link}
+    />
+  )
+} */
 
 const PropsApp = () => {
-  return (
-    <>
-      {/* eslint-disable-next-line react/jsx-pascal-case */}
-      <C22propsNetflix
+  // SeriesData.map((item)=>{
+    return (
+      <>
+        <h1 className="heading_name">my favorite top 5 netflix series</h1>
+        
+        {
+          // :: USING MAP METHOD
+          // eslint-disable-next-line array-callback-return
+          SeriesData.map((item, index, arr)=>{
+            // console.log(arr);
+            return (
+              <C22propsNetflix
+                key ={item.id}
+                sname ={item.sname}
+                imgsrc={item.imgsrc}
+                title={item.title}
+                link={item.link}
+              />
+            )
+          })
+        }
 
-      />
+        {/* 
+          //>> Creating Custome Card
+        */}
 
-
-      {/* 
-        //>> Creating Custome Card
-      */}
-
-      <h1 className="heading_name">my favorite top 5 netflix series</h1>
-      {/* <C22propsNetflix
-        imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
-        title='A Netflix Orignal Series'
-        SeriesName='DARK'
-        link='https://www.netflix.com/in/title/80100172'
-      />
-      <C22propsNetflix
-        imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
-        title='A Netflix Orignal Series'
-        SeriesName='DARK'
-        link='https://www.netflix.com/in/title/80100172'
-      />
-      <C22propsNetflix
-        imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
-        title='A Netflix Orignal Series'
-        SeriesName='DARK'
-        link='https://www.netflix.com/in/title/80100172'
-      /> */}
-      
-    </>    
-  )
+        {
+        /* <C22propsNetflix
+          imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
+          title='A Netflix Orignal Series'
+          SeriesName='DARK'
+          link='https://www.netflix.com/in/title/80100172'
+        />
+        <C22propsNetflix
+          imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
+          title='A Netflix Orignal Series'
+          SeriesName='DARK'
+          link='https://www.netflix.com/in/title/80100172'
+        />
+        <C22propsNetflix
+          imgsrc='https://wallpapercave.com/dwp1x/wp4056410.jpg'
+          title='A Netflix Orignal Series'
+          SeriesName='DARK'
+          link='https://www.netflix.com/in/title/80100172'
+        /> 
+        */
+        }
+        
+      </>    
+    )
+  // })
 }
 
 export default PropsApp

@@ -3,15 +3,16 @@ import React from 'react'
 import * as allCompo from './c20_modulesImpExp'
 const c18_functionalComp = () => {
     const name = ['Mango 🥭', 'Grapes 🍇', 'Waterlemon 🍉']
-    let allName = ''
-    name.forEach(fruits=>{
+    /* name.forEach(fruits=>{
         allName += fruits
-    })
-    /* var a = name.map(function(e){
-        return e
+    }) */
+    var a =name.map(function(e){
+        return e + 'Juicy, '
     });
-    a+=allName
-    console.log(a) */
+    let allName = a
+
+    // a+=allName
+    console.log(allName)
 
     // const randomNum = Math.floor(Math.random())
     // const randomNum = Math.random().toFixed(2)

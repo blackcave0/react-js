@@ -1,0 +1,60 @@
+.divCenter {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.7s;
+}
+
+button {
+    padding: 20px 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #2c2b2b67;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+
+
+/* FORM CONTROL */
+.formHeading{
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #8fbe7df5;
+    word-spacing: 10px;
+    /* letter-spacing: 30px; */
+}
+.formHeading::after{
+    content: '🎉';
+    color: #fff;
+}
+
+.formHeading::before{
+    content: "🍒";
+    color: #fff;
+}
+input {
+    /* padding: 30px 70px; */
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid #6a5cebb9;
+    /* margin-left: 10px; */
+    text-align: center;
+    /* background-color: #efeef59c; */
+    outline: none;
+    text-transform: capitalize;
+}

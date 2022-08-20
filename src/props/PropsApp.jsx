@@ -17,10 +17,12 @@ import SeriesData from './C23_arrayNetflix'
 
 const PropsApp = () => {
   // SeriesData.map((item)=>{
+    // const [favInput, setFavInput] = useState('')
+
     return (
       <>
         <h1 className="heading_name">my favorite top 5 netflix series</h1>
-        
+
         {
           // :: USING MAP METHOD
           // eslint-disable-next-line array-callback-return
@@ -34,11 +36,18 @@ const PropsApp = () => {
                 title={item.title}
                 link={item.link}
               />
+              
             )
+
           })
         }
+        
 
-        {/* 
+        {/* <input type="text" value={value} onChange={onChangeEvent}/>
+        <button type='button' onClick={myButton}>CLICK ME</button> */}
+        
+        {/* <ConditionalApp/> */}
+        {/*
           //>> Creating Custome Card
         */}
 
@@ -60,11 +69,11 @@ const PropsApp = () => {
           title='A Netflix Orignal Series'
           SeriesName='DARK'
           link='https://www.netflix.com/in/title/80100172'
-        /> 
+        />
         */
         }
-        
-      </>    
+
+      </>
     )
   // })
 }

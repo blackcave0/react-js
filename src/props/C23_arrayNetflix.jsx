@@ -4,7 +4,8 @@ const SeriesData = [
         sname : "dark",
         imgsrc : 'https://wallpapercave.com/dwp1x/wp4056410.jpg',
         title : 'A netflix original series',
-        link : 'https://www.netflix.com/in/title/80100172'
+        link : 'https://www.netflix.com/in/title/80100172',
+        platform : 'netflix',
     },
 
     /* {
@@ -20,6 +21,7 @@ const SeriesData = [
         imgsrc : 'https://m.media-amazon.com/images/M/MV5BMGZhODMyZjYtMWY2NS00MTViLWEyNjMtNTM1OWUxNTdjNmQyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80002479',
+        platform : 'netflix',
     },
     {
         id : 3,
@@ -27,6 +29,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp6201564.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80192098',
+        platform : 'netflix',
     },
 
     {
@@ -35,6 +38,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp10590983.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80222802',
+        platform : 'netflix',
     },
 
     {
@@ -43,6 +47,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp11178050.png',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80057281',
+        platform : 'amazon',
     },
 
     {
@@ -51,6 +56,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp10590983.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80222802',
+        platform : 'amazon',
     },
     {
         id : 7,
@@ -58,6 +64,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp10590983.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80222802',
+        platform : 'amazon',
     },
     {
         id : 8,
@@ -65,6 +72,7 @@ const SeriesData = [
         imgsrc : 'https://wallpapercave.com/wp/wp10590983.jpg',
         title : 'A netflix original series',
         link : 'https://www.netflix.com/in/title/80222802',
+        platform : 'amazon',
     },
 ];
 

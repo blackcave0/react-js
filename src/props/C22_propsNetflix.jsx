@@ -12,7 +12,8 @@ const C22_propsNetflix = (props) => {
                     {/* <img src={props.imgsrc} alt="mypic" className="card__img" /> */}
                     <Images imgsrc={props.imgsrc}/>
                     <div className="card__info">
-                        <span className="card__category">{props.title}</span>
+                        <span className="card__category">{props.title}</span> <br />
+                        <span className="card__category">{props.platform}</span>
                         <h3 className="card__title">{props.sname}</h3>
                         <a href={props.link} target="_blank" rel="noreferrer" > 
                             <button id='btn'>Watch Now</button>

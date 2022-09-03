@@ -156,7 +156,7 @@ li {
     flex-direction: column;
 }
 
-img {
+.project_center_div img {
     width: 200px;
     height: 100px;
     border-radius: 20px;
@@ -216,7 +216,165 @@ img {
     align-items: center;
     cursor: pointer;
 }
-p{
+.accordion__div p{
     color: #ffffff;
 }
 
+
+/* GOOGLE KEEP PROJECT */
+/* FOR HEADER */
+.google__header{
+    /* display: flex; */
+    background-color: #d5ff74;
+    padding: 20px 0;
+}
+
+.google__logo {
+    display: flex;
+    width: 300px;
+    /* background-color: #222929; */
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    color: #6466e9;
+}
+.google__logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* .google__note{
+    color: red;
+    height: 400px ;
+    width: 400px;
+    background-color: #fffffff1;
+}
+.google__note h1, p{
+    color: red;
+} */
+
+/* FOR CREATE NOTE */
+.google_main__note {
+    /* background-color: brown; */
+    /* height: 700px; */
+    width: 100%;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.google_main__note form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.google_main__note input {
+    border: none;
+    width: 300px;
+    height: 40px;
+    text-indent: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    -webkit-box-shadow : inset 0 0 5px #5f5d5d;
+            box-shadow: inset 0 0 5px #5f5d5d;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+}
+.google_main__note textarea{
+    outline: none;
+    margin-top: 30px;
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    text-indent: 30px;
+    padding: 20px 0 0 0;
+    -webkit-box-shadow : inset 0 0 5px #5f5d5d;
+            box-shadow: inset 0 0 5px #5f5d5d;
+}
+
+.google_main__note button {
+    width: 40px;
+    height: 60px;
+    background-color: rgb(196, 83, 248);
+    border-radius: 100%;
+    position: absolute;
+    top: 350px;
+    margin-left: 380px;
+} 
+.google_main__note button:hover{
+    background-color: rgb(196, 83, 248);
+    /* background-color: ; */
+}
+
+/* FOR NOTE */
+
+.google__note{
+    display: flex;
+    width: 350px;
+    /* background-color: #f5ededea; */
+    height: 200px;
+    flex-direction: column;
+    padding: 30px;
+    margin: 40px 0px;
+    border-radius: 10px;
+    -webkit-box-shadow : inset 0 0 20px #5f5d5d;
+            box-shadow: inset 0 0 20px #cfc5c5;
+}
+.google__note button{
+    width: 60px;
+    /* height: 60px; */
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 290px;
+    margin-top: 40px;
+}
+.google__note h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.google__note p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.class__keepApp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin: 30px; */
+}
+
+
+/* ROUTER STYLE */
+.navbar__menu{
+    display: flex;
+    width: 100%;
+    background-color: #e9a264;
+    justify-content: space-around;
+}
+.btn_links{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #f7f3ef51;
+    /* margin: 40px; */
+}
+
+/* FOR ACTIVE COLOR IT IS DEFAULT VALUE, ADDED IN DEFAULT  */
+.active {
+    color: red;
+    background-color: #222929;
+}

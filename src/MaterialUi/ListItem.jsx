@@ -14,6 +14,7 @@ const ListItem = (props) => {
                 </span>
                 <li style={{textDecoration : line ? "line-through" : 'none'}}>{props.value}</li>
             </div>
+            <p></p>
         </>
     )
 }

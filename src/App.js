@@ -1,7 +1,23 @@
 import React from 'react'
+// import "../node_modules/jquery/dist/jquery.min.js";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/js/src/collapse.js'
+import UseParamHooks from './UseParamsHooks/UseParamHooks'
+import { BrowserRouter } from "react-router-dom"
+import RouterApp from './ReactRouter/RouterApp'
+import ParamsApp from './UseParamsHooks/ParamsApp'
+// import SearchApp from './SearchFilter/SearchApp'
+
+// import RouterApp from './ReactRouter/RouterApp';
+// import MainApi from './Api/MainApi';
+// import AxiosApiApp from './React_AxiosApi/AxiosApi_App';
+// import Hook from './challenges/Hook';
+// import UseContextApp from './ContextApi/UseContext/UseContextApp';
+// import UseEffectApp from './UseEffect/UseEffectApp';
+// import ContextApp from './CreateContext/ContextApp';
+// import KeepApp from './GooglKeep/KeepApp';
 // import MainApp from './Project/MainApp';
-import AccordionApp from './AccordionApp/AccordionApp';
+// import AccordionApp from './AccordionApp/AccordionApp';
 
 // import Bootstrap from './Bootstrap/Bootstrap';
 // import MaterialUiApp from './MaterialUi/MaterialUiApp';
@@ -39,8 +55,31 @@ const App = () => {
             {/* <C40TodoApp/> */}
             {/* <MaterialUiApp/> */}
             {/* <Bootstrap/> */}
-            <AccordionApp />
+            {/* <AccordionApp /> */}
             {/* <MainApp/> */}
+            {/* <KeepApp/> */}
+            {/* <ContextApp/> */}
+            {/* <UseContextApp/> */}
+            {/* <UseEffectApp/> */}
+
+            {/* CHALLENGE */}
+            {/* <Hook/> */}
+
+            {/* <AxiosApiApp/> */}
+
+
+            <BrowserRouter>
+                <RouterApp />
+            </BrowserRouter>
+
+            {/* project for api testing  */}
+            {/* <MainApi/> */}
+
+            {/* <BrowserRouter>
+                <ParamsApp/>
+            </BrowserRouter> */}
+
+            {/* <SearchApp/> */}
         </>
     )
 }

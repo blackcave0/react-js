@@ -1,0 +1,13 @@
+goto npm react-router-dom 
+then install 
+https://www.npmjs.com/package/react-router-dom/v/5.3.0
+
+
+How do i use
+You'll need to import BrowserRouter, Route, and Switch from [react-router-dom] package
+
+Import Routes instead of Switch = dom_version6
+
+Import Link for Navigate page without reaload
+
+if you want add className is Link then import instead of Link to NavLink 

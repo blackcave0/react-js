@@ -143,9 +143,9 @@
     }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .contact_div {
     height: 80vh;

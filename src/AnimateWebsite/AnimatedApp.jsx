@@ -6,7 +6,7 @@ import Service from './Service'
 import Contact from './Contact'
 import Navbar from './Navbar'
 import './myStyle.css'
-import Footer from './Footer'
+// import Footer from './Footer'
 const AnimatedApp = () => {
     return (
         <>
@@ -20,7 +20,7 @@ const AnimatedApp = () => {
                 } />
                 {/* <Home /> */}
             </Routes>
-            <Footer/>
+            {/* <Footer/> */}
         </>
     )
 }

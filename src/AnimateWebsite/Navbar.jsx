@@ -9,7 +9,7 @@ const Navbar = () => {
 		<>
 			<div className="container-fluid nav-bg">
 				<div className="row">
-					<div className="col-10 mx-auto">
+					<div className="col-12 col-sm-12 col-md-10 mx-auto">
 						<nav className="navbar navbar-expand-lg">
 							<div className="container-fluid">
 								<NavLink className="navbar-brand" to="/">Navbar</NavLink>
@@ -17,7 +17,7 @@ const Navbar = () => {
 									<span className="navbar-toggler-icon"></span>
 								</button>
 								<div className="collapse navbar-collapse" id="navbarSupportedContent">
-									<ul className="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+									<ul className="navbar-nav ms-lg-auto mb-2 mb-lg-auto">
 										<li className="nav-item active_nav">
 											<NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
 										</li>

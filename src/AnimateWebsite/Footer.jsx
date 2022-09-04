@@ -3,26 +3,12 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className="d-flex flex-column h-100 ">
-
-                {/* <!-- FOR DEMO PURPOSE --> */}
-                {/* <section className="hero text-white py-5 flex-grow-1">
-                    <div className="container py-4">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <h1 className="display-4">Bootstrap footer bottom</h1>
-                                <p className="fst-italic text-muted">Using Bootstrap 5 flexbox utilities, create a footer that always sticks to the bottom of your viewport. Snippet by
-                                <a className="text-primary" href="https://bootstrapious.com/" target="_blank" rel='noreferrer' >Bootstrapious</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
-
+            {/* <div className="d-flex  footer_div"> */}
+    
                 {/* <!-- FOOTER --> */}
-                <footer className="w-100 py-4 flex-shrink-0">
+                <footer className="py-4 flex-shrink-0">
                     <div className="container py-4">
-                        <div className="row gy-4 gx-5">
+                        <div className="row gy-4 p-3">
                             <div className="col-lg-4 col-md-6">
                                 <h5 className="h1 text-white">FB.</h5>
                                 <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -59,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </footer>
-            </div>
+            {/* </div> */}
         </>
     )
 }

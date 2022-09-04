@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <Common
-                name='grow your business '
+                name='grow your business with'
                 // imsrc={}
                 visit='/service'
                 btname='get started'
